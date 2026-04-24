@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "buildCommand": "cd smartseason-backend/smartseason-frontend && npm run build",
+  "outputDirectory": "smartseason-backend/smartseason-frontend/build",
+  "installCommand": "npm install"
+}

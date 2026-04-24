@@ -1,0 +1,16 @@
+{
+  "name": "smartseason",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "smartseason-backend",
+    "smartseason-backend/smartseason-frontend"
+  ],
+  "scripts": {
+    "start": "npm start --workspace=smartseason-backend/smartseason-frontend",
+    "start:backend": "npm start --workspace=smartseason-backend",
+    "start:frontend": "npm start --workspace=smartseason-backend/smartseason-frontend",
+    "build": "npm run build --workspace=smartseason-backend/smartseason-frontend",
+    "build:frontend": "npm run build --workspace=smartseason-backend/smartseason-frontend"
+  }
+}
